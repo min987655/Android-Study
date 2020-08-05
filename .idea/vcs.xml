@@ -2,5 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MovieApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PicassoEx01" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Retrofit2Ex01" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/androidappV02" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brunch" vcs="Git" />
   </component>
 </project>

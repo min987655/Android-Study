@@ -8,6 +8,8 @@ import android.os.Bundle;
 
 import com.cos.androidappv02.R;
 
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "Main_Activity";
@@ -37,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         adapter.addItem(new Profile("Your story", R.drawable.propic3));
 
         rvProfile.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, true));
+        rvProfile.scrollToPosition(adapter.getItemCount()-1);
         rvProfile.setAdapter(adapter);
     }
 
