@@ -10,7 +10,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.room.Room;
 
 import android.Manifest;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
@@ -77,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
         initObject();
         initDesign();
         initListener();
-//        tedPermission();
+        tedPermission();
     }
 
     private void initData(){
@@ -259,7 +258,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-/*    // 권한 관련
+    // 권한 관련
     private void tedPermission() {
         PermissionListener permissionListener = new PermissionListener() {
             @Override
@@ -280,6 +279,6 @@ public class MainActivity extends AppCompatActivity {
                 .setPermissions(Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.CAMERA)
                 .check();
 
-    }*/
+    }
 }
 

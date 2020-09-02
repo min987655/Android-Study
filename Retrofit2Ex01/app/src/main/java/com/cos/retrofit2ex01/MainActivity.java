@@ -48,6 +48,9 @@ public class MainActivity extends AppCompatActivity {
                     return;
                 }
                 Yts ytsItems = response.body();
+//                Log.d(TAG, "onResponse: " + ytsItems);
+                Log.d(TAG, "onResponse: " + ytsItems.getData().getMovies());
+
                 for (Yts.Data.Movie movie : ytsItems.getData().getMovies()) {
                     String content = "";
                     content += "TITLE: " + movie.getTitle() + "\n";

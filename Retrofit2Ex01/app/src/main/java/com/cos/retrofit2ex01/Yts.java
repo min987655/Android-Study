@@ -48,9 +48,7 @@ public class Yts {
             public String state;
             public String dateUploaded;
             public Integer dateUploadedUnix;
-
         }
-
     }
 
     @lombok.Data
